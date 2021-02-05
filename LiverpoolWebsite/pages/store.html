@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liverpool FC</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/store.css">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+</head>
+<body>
+    <header>
+        <img id="logo" src="../images/logo.jpg" width="85" height="100" alt="Liverpool FC logo">
+        <h1>Liverpool Football Club</h1>
+        <h4>You'll Never Walk Alone</h4>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">News</a>
+                    <ul>
+                        <li><a href="#">Fixtures</a></li>
+                        <li><a href="#">Players</a>
+                            <ul>
+                                <li><a href="#">Injuries</a></li>
+                                <li><a href="#">Transfers</a></li>
+                                <li><a href="#">Rivalries</a></li>
+                                <li><a href="#">Other News</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Jerseys</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Gallery</a>
+                    <ul>
+                        <li><a href="../pages/images.html">Images</a></li>
+                        <li><a href="../pages/videos.html">Videos</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/store.html" class="current">Store</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside id="section1">   
+        <nav id="aside_nav_menu">
+            <ul>
+                <li><a href="../index.html"><img src="../images/home.png" width="30" height="30" alt="Navigation logo for Home"><figcaption>Home</figcaption></a></li>
+                <li><a href="../pages/images.html"><img src="../images/images.png" width="30" height="30" alt="Navigation logo for Images"><figcaption>Images</figcaption></a></li>
+                <li><a href="../pages/videos.html"><img src="../images/video.png" width="30" height="30" alt="Navigation logo for Videos"><figcaption>Videos</figcaption></a></li>
+                <li><a href="../pages/store.html" class="current"><img src="../images/store.png" width="30" height="30" alt="Navigation logo for Store"><figcaption>Store</figcaption></a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h2>Liverpool Store</h2>
+        <form action="somepage.html" method="get" id="purchaseForm">
+            <fieldset>
+                <legend>Contact Details</legend>
+                <label for="name" class="rightAlign">Name</label>
+                <input type="text" class="giveWidth" name="name" id="name" autofocus required><br>
+                <label for="email" class="rightAlign">Email</label>
+                <input type="email" class="giveWidth" name="email" id="email" required><br>
+                <label for="address" class="rightAlign">Address</label>
+				<input type="text" class="giveWidth" name="address" id="address" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Delivery Type</legend>
+                <label for="delivery" class="rightAlign">Delivery</label>
+                <select class="giveWidth" name="delivery" id="delivery">
+                    <option>------Select------</option>
+                    <optgroup label="Store Pick Up">
+                        <option value="kitchener">Pick Up at Kitchener Location</option>
+                        <option value="waterloo">Pick Up at Waterloo Location</option>
+                        <option value="cambridge">Pick Up at Cambridge Location</option>
+                    </optgroup>
+                    <optgroup label="Home Delivery">
+                        <option value="normal">Normal Delivery</option>
+                        <option value="fast">Fast Delivery</option>
+                        <option value="priority">Priority Delivery</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Products</legend>
+                <label for="products" class="rightAlign">Products</label>
+                <select name="products" id="products" multiple>
+                    <option value="homeProduct">Home Kit</option>
+                    <option value="awayProduct">Away Kit</option>
+                    <option value="alternateProduct">Alternate Kit</option>
+                    <option value="specialProduct">2005 Special Edition Kit</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Delivery Instructions</legend>
+                <label for="instructions" class="rightAlign">Instructions</label>
+                <textarea class="giveWidth" name="instructions" id="instructions" placeholder="Please write down delivery instruction. We will try our best to fulfill!"></textarea>
+            </fieldset>
+            <div class="alert">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                <strong>Confirm Purchase?</strong> If yes, close this and click submit.
+            </div>
+            <fieldset id="lastField">
+                <input type="submit" value="Submit" class="buttons">
+            </fieldset>     
+        </form>
+    </main>
+    <aside id="section2">
+        <p>To improve the quality of service, please complete this small survey.</p><br>
+        <form action="somepage.html" method="get" id="purchaseForm">
+            <label class="adjust">Other clubs you follow:</label><br>
+            <input tabindex="1" type="checkbox" id="arsenal" name="arsenal" value="arsenal">
+            <label for="arsenal">Arsenal FC</label><br>
+            <input tabindex="2" type="checkbox" id="chelsea" name="chelsea" value="chelsea">
+            <label for="chelsea">Chelsea FC</label><br>
+            <input tabindex="3" type="checkbox" id="manu" name="manu" value="manu">
+            <label for="manu">Man U FC</label><br>
+            <input tabindex="4" type="checkbox" id="manc" name="manc" value="manc">
+            <label for="manc">Man C FC</label><br><br>
+
+            <label class="adjust">Gender:</label><br>
+            <input tabindex="5" type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input tabindex="6" type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input tabindex="7" type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <input type="submit" value="Submit" id="surveyButton">
+        </form>
+    </aside>
+    <footer>
+        <p>&copy; Copyright 2020 Liverpool F.C.</p>
+        <p>Contact: <a href="mailto: askliverpool.com">askliverpool.com</a></p>
+    </footer>
+</body>
+</html>

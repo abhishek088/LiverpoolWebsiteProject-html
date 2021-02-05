@@ -1,0 +1,21 @@
+main p {
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+main img{
+    border-radius: 50%;
+    padding-left: 38px;
+    margin: 20px 0px;
+}
+
+#section2 h4{
+    margin-left: 10px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+}
+
+#section2 ol{
+    margin-left: 40px;
+    text-indent: 3%;
+}

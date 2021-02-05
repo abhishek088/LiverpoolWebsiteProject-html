@@ -1,0 +1,89 @@
+fieldset{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    line-height: 30px;
+}
+#lastField{
+    margin-bottom: 20px;
+}
+legend{
+    font-size: 130%;
+    margin-left: 20px;
+    padding: 5px;
+}
+.rightAlign{
+    width: 80px;
+    text-align: right;
+    float: left;
+    margin-right: 7px;
+}
+.giveWidth{
+    width: 30em;
+}
+#instructions{
+    height: 8em;
+}
+#products{
+    height: 5em;
+    width: 30em;
+}
+.buttons{
+    width: 100px;
+    margin-left: 230px;
+    font-size: 105%;
+    border: 2px solid rgb(216, 4, 4);
+    background-color: black;
+    color: rgb(216, 4, 4);
+    padding: 7px;
+}
+textarea{
+    resize: none;
+}
+#section2 form input{
+    margin-left: 20px;
+}
+#section2 form .adjust{
+    margin-left: 5px;
+}
+#section2 p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#surveyButton{
+    width: 60px;
+    margin-left: 68px !important;
+}
+.alert {
+    padding: 20px;
+    background-color: rgb(15, 199, 15);
+    color: white;
+    margin-top: 10px;
+    width: 518px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+#name[required], #email[required], #address[required]{
+    border: 1px solid red;
+}
+main input:focus, main select:focus, main textarea:focus{
+    border: 1.5px solid black;
+    box-shadow: 0 0px 10px black;
+}
+.giveWidth:focus{
+    width: 30.2em;
+    height: 20px;
+}

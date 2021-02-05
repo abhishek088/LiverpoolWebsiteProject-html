@@ -1,0 +1,94 @@
+#img1{
+    background-image: url("../images/img1.jpg");
+    width: 200px;
+    height: 150px;
+    background-size: contain;
+    margin-top: 20px;
+}
+
+#img1:hover{
+    background-image: url("../images/img2.jpg");
+    width: 200px;
+    height: 150px;
+    background-size: contain;
+}
+
+#img2{
+    background-image: url("../images/img3.jpg");
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+#img2:hover{
+    background-image: url("../images/img4.jpg");
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+}
+
+#img3{
+    background-image: url("../images/img5.jpg");
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+}
+
+#img3:hover{
+    background-image: url("../images/img6.png");
+    width: 200px;
+    height: 150px;
+    background-size: contain;
+}
+
+#img4{
+    background-image: url("../images/img7.jpg");
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+}
+
+#img4:hover{
+    background-image: url("../images/img8.jpg");
+    width: 200px;
+    height: 150px;
+    background-size: contain;
+}
+figure{
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+main figcaption{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.moveToCenter{
+    margin-left: 64px;
+}
+
+main p {
+    border: 1.5px solid black;
+}
+
+#section2 p{
+    margin-left: 10px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+#section2 img{
+    margin-left: 48px;
+    margin-top: 5px;
+}
+
+#section2 figcaption{
+    text-align: center;
+}
+
+#section2 a:hover{
+    color: blue;
+}

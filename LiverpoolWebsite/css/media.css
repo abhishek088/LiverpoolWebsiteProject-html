@@ -1,0 +1,19 @@
+#giveMargin{
+    margin-top: 15px;
+}
+audio{
+    width: 480px;
+}
+main audio, object, iframe, h4{
+    margin-left: 44px;
+}
+#section2 p{
+    margin-top: 5px;
+}
+#section2 img{
+    margin-top: 10px;
+    margin-left: 73px;
+}
+#section2 p{
+    margin-left: 10px;
+}
